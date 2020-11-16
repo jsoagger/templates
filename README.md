@@ -1,0 +1,2 @@
+# templates
+Soaggyshop frontend templates
