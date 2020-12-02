@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Soaggy shop : panier ( 2 articles )</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/add.css" rel="stylesheet" />
+    </head>
+    <body id="basket" class="" style="">
+   <noscript>
+      You need to enable JavaScript to run this app.
+   </noscript>
+   <div id="root">
+      <section class="header-main" style="">
+         <div class="header-main-logo">
+            <button type="button" class="btn btn-white btn-sm">
+               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#fff" height="2.3em" width="2.3em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 255, 255);">
+                  <g>
+                     <path fill="none" d="M0 0h24v24H0z"></path>
+                     <path d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"></path>
+                  </g>
+               </svg>
+            </button>
+            <img src="images/soaggyShopLogoWhite.svg" width="140" alt="SOAGGYSHOP">
+         </div>
+      </section>
+      <div class="app-body" style="">
+         <main class="main">
+            <div class="new-step">
+               <ul class="cart-default-stepper">
+                  <li class="item item-1"><a>1<span>Validation</span></a></li>
+                  <li class="item item-2 active"><a>2<span>Paiement</span></a></li>
+                  <li class="item item-3"><a>3<span>Confirmation</span></a></li>
+               </ul>
+            </div>
+            <div class="container new-command">
+               <section class="left">
+                  <span class="shopping-cart-section-title">Paiement</span>
+                  <div class="cart-delivery-form">
+                     <div class="cart-delivery-form-title"><span class="shopping-cart-section-title-subsection">Mode de paiement</span></div>
+                     <table class="datatable-paiement">
+                        <tbody>
+                           <tr>
+                              <th>Carte bancaire</th>
+                              <th>PayPal</th>
+                              <th>American Express</th>
+                           </tr>
+                           <tr>
+                              <td width="25%">
+                                 <div class="payment-choice">
+                                    <input type="radio" name="payment" id="paiment_type" data-type="paiment_type" checked="">
+                                    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKMAAAAlCAYAAAAuhVlFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTU4QTVERUFDRTY1MTFFNThBRTFCMkY3MUZBNTZEOUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTU4QTVERUJDRTY1MTFFNThBRTFCMkY3MUZBNTZEOUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5NThBNURFOENFNjUxMUU1OEFFMUIyRjcxRkE1NkQ5QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5NThBNURFOUNFNjUxMUU1OEFFMUIyRjcxRkE1NkQ5QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlGRjFAAABk0SURBVHja7FwHeFVV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" alt="Credit card"></div>
+                                 </div>
+                              </td>
+                              <td width="25%">
+                                 <div class="payment-choice">
+                                    <input type="radio" name="payment" id="ml_PayPal" data-type="PayPal">
+                                    <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAgCAIAAADfQ7x2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpBNzI4MDJGMEE0MTJFNDExQTFGMjg1Q0E5MjAzMTlCRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxNjhCNzE5RTQyRTgxMUU4QkI3MUE0M0IwQTQ3NTRCNyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxNjhCNzE5RDQyRTgxMUU4QkI3MUE0M0IwQTQ3NTRCNyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAxMDkzODJDMjdGMTExRTQ4MkU2RjM0MEMxRURDNDlBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAxMDkzODJEMjdGMTExRTQ4MkU2RjM0MEMxRURDNDlBIi8+IDwvcmRmOkRlc2NyaXB0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" alt="PAYPAL"></div>
+                                 </div>
+                              </td>
+                              <td width="25%">
+                                 <div class="payment-choice payment-choice-last">
+                                    <input type="radio" name="payment" id="ml_AmexBe2Bill">
+                                    <div><img src="data:image/png;base64,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" alt="AMEX"></div>
+                                 </div>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <div class="cart-delivery-form-title"><span class="shopping-cart-section-title-subsection">Adresse de facturation</span></div>
+                     <div class="cart-delivery-form-content">
+                        <form class="">
+                           <div class="form-row">
+                              <div class="form-group"><label class="form-label" for="validationCustom01">Adressage&nbsp;<span>*</span></label><input required="" name="addressageName" placeholder="Prénom et nom, ou votre companie" type="text" id="validationCustom01" class="form-control" value="65 Avenue du General de Gaulle"></div>
+                           </div>
+                           <div class="form-group"><label class="form-label" for="formGridAddress1">Adresse&nbsp;<span>*</span></label><input placeholder="" name="address" autocomplete="off" required="" type="text" id="formGridAddress1" class="form-control" value="65 Avenue du General de Gaulle"></div>
+                           <div class="flex-form-row form-row">
+                              <div class="flex-form-col form-group"><label class="form-label">Code postale&nbsp;<span>*</span></label><input name="postalCode" required="" type="text" class="form-control" value="92130"></div>
+                              <div class="flex-form-col form-group"><label class="form-label">Ville&nbsp;<span>*</span></label><input name="city" autocomplete="off" required="" type="text" class="form-control" value="Issy les Moulineaux"></div>
+                              <div class="flex-form-col form-group"><label class="form-label">Pays&nbsp;<span>*</span></label><input required="" name="country" placeholder="Ville" type="text" class="form-control" value="France"></div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+                  <div class="cart-form-content hand-hover">
+                     <div class="form-check"><input required="" name="agreement" type="checkbox" class="form-check-input"><label title="" class="form-check-label">J’ai pris connaissance et j'accepte les conditions générales de vente de soaggyshop online</label></div>
+                  </div>
+                  <div class="shopping-cart-total-ttc"><span>Total TTC</span><span class="float-right">42.60 €</span></div>
+                  <div class="cart-toolbar-bottom">
+                     <button type="button" class="new-cart btn btn-secondary">
+                        <span>CONTINUER&nbsp;</span>
+                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                           <g>
+                              <path fill="none" d="M0 0h24v24H0z"></path>
+                              <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+                           </g>
+                        </svg>
+                     </button>
+                  </div>
+                  <div></div>
+               </section>
+               <section class="right cart-summary-parent">
+                  <div class="summary-content summary-content-sticky">
+                     <span class="shopping-cart-section-title-subsection">Mon panier</span>
+                     <div class="shopping-cart-summary-content">
+                        <div class="item"><span>Total HT</span><span class="float-right">35.50 €</span></div>
+                        <div class="item"><span>TVA</span><span class="float-right">7.10 €</span></div>
+                        <div class="item"><span>Frais de port</span><span class="float-right">GRATUIT</span></div>
+                        <div class="item item-total"><span>Total TTC</span><span class="float-right">42.60 €</span></div>
+                     </div>
+                     <div class="cart-payment-infos">
+                        <div class="half-opacity mt-4 text-center">
+                           <ul class="checkoutinformation">
+                              <li class="">
+                                 <div><i class="fa fa-lg fa-lock mb-1"></i></div>
+                                 <b>Achats 100% sécurisés</b><br>avec sécurisation des données SSL
+                              </li>
+                              <li class="">
+                                 <div><i class="fa fa-lg fa-money"></i></div>
+                                 <b>Moyens de paiement</b><br>à votre disposition<br>
+                                 <div class="checkoutinformation__paymenticons flex"><i class="fa fa-lg fa-cc-visa mr-1"></i><i class="fa fa-lg fa-cc-mastercard mr-1"></i><i class="fa fa-lg fa-credit-card mr-1"></i><i class="fa fa-lg fa-cc-amex mr-1"></i></div>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+            </div>
+            <div class="shop-footer">
+               <div class="pre-footer">
+                  <section>
+                     <ul class="checkoutinformation">
+                        <li>
+                           <div>
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                 <g>
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path fill-rule="nonzero" d="M5.763 17H20V5H4v13.385L5.763 17zm.692 2L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455zM11 14h2v2h-2v-2zM8.567 8.813A3.501 3.501 0 1 1 12 13h-1v-2h1a1.5 1.5 0 1 0-1.471-1.794l-1.962-.393z"></path>
+                                 </g>
+                              </svg>
+                           </div>
+                           <b>Contacts &amp; aide</b><br><span>Du lundi à vendredi de 9h à 18h</span><br><span>+33 (0) 112 123 122</span>
+                        </li>
+                        <li>
+                           <div>
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                 <g>
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M19 10h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1V9a7 7 0 1 1 14 0v1zM5 12v8h14v-8H5zm6 2h2v4h-2v-4zm6-4V9A5 5 0 0 0 7 9v1h10z"></path>
+                                 </g>
+                              </svg>
+                           </div>
+                           <b>Achats 100% sécurisés</b><br><span>avec sécurisation des données SSL</span>
+                        </li>
+                        <li>
+                           <div>
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                 <g>
+                                    <path fill="none" d="M0 0h24v24H0z"></path>
+                                    <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm4.5 9H14a.5.5 0 1 0 0-1h-4a2.5 2.5 0 1 1 0-5h1V6h2v2h2.5v2H10a.5.5 0 1 0 0 1h4a2.5 2.5 0 1 1 0 5h-1v2h-2v-2H8.5v-2z"></path>
+                                 </g>
+                              </svg>
+                           </div>
+                           <b>Moyens de paiement</b><br>
+                           <div class="checkoutinformation-paymenticons"><i class="fa fa-lg fa-cc-visa mr-1"></i><i class="fa fa-lg fa-cc-mastercard mr-1"></i><i class="fa fa-lg fa-credit-card mr-1"></i><i class="fa fa-lg fa-cc-amex mr-1"></i></div>
+                        </li>
+                        <li>
+                           <div>
+                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" d="M4.354 11.354a.5.5 0 000-.708L1.707 8l2.647-2.646a.5.5 0 10-.708-.708l-3 3a.5.5 0 000 .708l3 3a.5.5 0 00.708 0z" clip-rule="evenodd"></path>
+                                 <path fill-rule="evenodd" d="M11.5 8a.5.5 0 00-.5-.5H2a.5.5 0 000 1h9a.5.5 0 00.5-.5z" clip-rule="evenodd"></path>
+                                 <path fill-rule="evenodd" d="M14 13.5a1.5 1.5 0 001.5-1.5V4A1.5 1.5 0 0014 2.5H7A1.5 1.5 0 005.5 4v1.5a.5.5 0 001 0V4a.5.5 0 01.5-.5h7a.5.5 0 01.5.5v8a.5.5 0 01-.5.5H7a.5.5 0 01-.5-.5v-1.5a.5.5 0 00-1 0V12A1.5 1.5 0 007 13.5h7z" clip-rule="evenodd"></path>
+                              </svg>
+                           </div>
+                           <b>Retour gratuit</b><br><span>Dans un delai de 7 jours après la date d'achat</span>
+                        </li>
+                     </ul>
+                  </section>
+               </div>
+               <div class="footer-content-pages">
+                  <div id="generales" class="bd-highlight flex-fill">
+                     <h4><span class="h4">Legales</span></h4>
+                     <ul class="main-footer-list">
+                        <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=charteDesDonneescontentId=ODA1OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Charte des données</a></li>
+                        <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=conditionGeneralecontentId=ODAyOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Condition générales</a></li>
+                        <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=mentionsLegalescontentId=ODA4OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Mention légales</a></li>
+                        <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=planDuSitecontentId=ODExOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Plan du site</a></li>
+                        <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=politiqueCookiescontentId=ODE0OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Politique relative aux cookies</a></li>
+                     </ul>
+                  </div>
+                  <div id="needHelp" class="bd-highlight flex-fill">
+                     <h4><span class="h4">Besoin d'aide</span></h4>
+                     <ul class="main-footer-list">
+                        <li class="main-footer-list-item"><a href="#/register?contentId=ODIwOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Créer un compte</a></li>
+                        <li class="main-footer-list-item"><a href="#/lostPass?contentId=ODIzOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Récuperer mot de passe</a></li>
+                        <li class="main-footer-list-item"><a href="#/logout?contentId=ODIxOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Se déconnecter</a></li>
+                        <li class="main-footer-list-item"><a href="#/followOrder?contentId=ODE5OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Suivi de commande</a></li>
+                        <li class="main-footer-list-item"><a href="#/removeAccount?contentId=ODIyOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Supprimer mon compte</a></li>
+                     </ul>
+                  </div>
+                  <div class="footer-address">
+                     <h4><span class="h4">Service client</span></h4>
+                     <div class="footer-postal-address">
+                        <p>65, Avenue du Général de Gaulle</p>
+                        <p>75015, Paris. France</p>
+                     </div>
+                     <div class="footer-email">
+                        <div>
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                              <g>
+                                 <path fill="none" d="M0 0h24v24H0z"></path>
+                                 <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"></path>
+                              </g>
+                           </svg>
+                        </div>
+                        <a><span>contact@nexitia.com</span></a>
+                     </div>
+                     <div class="footer-phone">
+                        <div>
+                           <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2.3em" width="2.3em" xmlns="http://www.w3.org/2000/svg">
+                              <g>
+                                 <path fill="none" d="M0 0h24v24H0z"></path>
+                                 <path fill-rule="nonzero" d="M9.366 10.682a10.556 10.556 0 0 0 3.952 3.952l.884-1.238a1 1 0 0 1 1.294-.296 11.422 11.422 0 0 0 4.583 1.364 1 1 0 0 1 .921.997v4.462a1 1 0 0 1-.898.995c-.53.055-1.064.082-1.602.082C9.94 21 3 14.06 3 5.5c0-.538.027-1.072.082-1.602A1 1 0 0 1 4.077 3h4.462a1 1 0 0 1 .997.921A11.422 11.422 0 0 0 10.9 8.504a1 1 0 0 1-.296 1.294l-1.238.884zm-2.522-.657l1.9-1.357A13.41 13.41 0 0 1 7.647 5H5.01c-.006.166-.009.333-.009.5C5 12.956 11.044 19 18.5 19c.167 0 .334-.003.5-.01v-2.637a13.41 13.41 0 0 1-3.668-1.097l-1.357 1.9a12.442 12.442 0 0 1-1.588-.75l-.058-.033a12.556 12.556 0 0 1-4.702-4.702l-.033-.058a12.442 12.442 0 0 1-.75-1.588z"></path>
+                              </g>
+                           </svg>
+                        </div>
+                        <a>+33 (0) 112 123 122</a>
+                     </div>
+                  </div>
+               </div>
+               <div class="main-footer-social-links">
+                  <h4><span class="h4">Rejoignez-nous</span></h4>
+                  <ul class="social-list-links" role="list">
+                     <li class="horizontal-list-item"><a href="https://www.facebook.com/" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-facebook-official"></i>&nbsp;Facebook</a></li>
+                     <li class="horizontal-list-item"><a href="https://www.instagram.com/?hl=fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-instagram"></i>&nbsp;Instagram</a></li>
+                     <li class="horizontal-list-item"><a href="https://www.pinterest.fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-pinterest"></i>&nbsp;Pinterest</a></li>
+                     <li class="horizontal-list-item"><a href="http://www.twitter.fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-twitter"></i>&nbsp;Twitter</a></li>
+                     <li class="horizontal-list-item"><a href="https://www.youtube.com/?gl=FR&amp;hl=fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-youtube-play"></i>&nbsp;Youtube</a></li>
+                  </ul>
+               </div>
+               <div class="main-footer-legal-links">
+                  <ul>
+                     <li class="horizontal-list-item"><a href="https://jsoagger.tech">SOAGGYSHOP</a> © 2019-2020.</li>
+                     <li class="horizontal-list-item">Designed and developed by <a href="https://www.nexitia.com">NEXITIA TECHNOLOGIES.</a></li>
+                     <li class="horizontal-list-item">Version: .</li>
+                  </ul>
+               </div>
+               <a href="#" class="floating-scroll-button">
+                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="4em" width="4em" xmlns="http://www.w3.org/2000/svg">
+                     <g>
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"></path>
+                     </g>
+                  </svg>
+               </a>
+            </div>
+            <div class="Toastify"></div>
+         </main>
+      </div>
+   </div>
+        <!-- Bootstrap core JS-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="js/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <!--<div role="tooltip" x-placement="bottom" class="fade jsoagger-filters-popover show popover bs-popover-bottom" id="popover-contained-price" style="position: absolute; top: 0px; left: 0px; margin: 0px; right: auto; bottom: auto; transform: translate3d(527.5px, 343px, 0px);">
+            <div class="arrow" style="margin: 0px; position: absolute; left: 0px; transform: translate3d(129px, 0px, 0px);"></div>
+            <div class="form-group row">
+                <label for="formHorizontalEmail" class="form-label col-form-label col-sm-3">Min</label>
+                <div class="col-sm-8">
+                    <select name="priceMin" id="formHorizontalEmail" class="form-control">
+                        <option></option>
+                        <option value="10">10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="120">120</option>
+                        <option value="150">150</option>
+                        <option value="200">200</option>
+                    </select>
+                </div>
+                <label for="formHorizontalEmail" class="mt-1 form-label col-form-label col-sm-3">Max</label>
+                <div class="mt-1 col-sm-8">
+                    <select name="priceMax" id="formHorizontalEmail" class="form-control">
+                        <option></option>
+                        <option value="10">10</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                        <option value="120">120</option>
+                        <option value="150">150</option>
+                        <option value="200">200</option>
+                    </select>
+                </div>
+            </div>
+        </div>-->
+
+    </body>
+</html>

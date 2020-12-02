@@ -13,55 +13,211 @@
         <link href="css/add.css" rel="stylesheet" />
     </head>
 
-    <body id="loginpage">
-            <!-- Header-->
-            <div class="header-main">
-                <div class="header-main-logo">
-                    <img src="images/logo-soaggy.png" width="220" class="img-logo" alt="SOAGGYSHOP">
-                </div>
-            </div>
 
-            <!-- Header end-->
-            <!-- Content-->
-            <div class="app-body">
-                <main class="main">
-                      <div class="container">
-
-                          <center>
-                              <h2 class="main-title mt5">Identification</h2>
-                          </center>
-                          <form class="new-filter">
-                          	<div class="form-group field field-string">
-                          		<label class="control-label" for="root_login">Login<span class="required">*</span></label>
-                          		<input class="form-control" id="root_login" label="Login" required="" placeholder="me@me.com" type="text" value="">
-                          		<p class="help-block">Email or nickname</p>
-                          	</div>
-                          	<div class="form-group field field-string">
-                          		<label class="control-label" for="root_password">Mot de passe<span class="required">*</span></label>
-                          		<input class="form-control" type="password" id="root_password" label="Password" required="" placeholder="Mot de passe" value="">
-                          	</div>
-                          	<button type="button" class="new-cart">Se connecter <i class="fa fa-lg fa-arrow-right"></i> </button>
-                          	<button type="button" class="">Mot de passe oublié ?</button>
-
-
-                              <button type="button" class="new-favorite">Ou créer un compte <i class="fa fa-lg ml-5 fa-lock"></i> </button>
-
-                        </form>
+    <body id="page-top">
+       <noscript>
+          You need to enable JavaScript to run this app.
+       </noscript>
+       <div id="root">
+          <div class="app" style="">
+             <div id="headerlayout1" class="headerlayout1">
+                <div class="all-header">
+                   <div class="header-main">
+                      <div class="header-main-logo"><a href="#" class="nav-link" role="button"><img src="/soaggyshop/static/media/soaggyShopLogoWhite.ff1f6cc0.svg" width="200" class="d-inline-block align-top" alt="SOAGGYSHOP"></a></div>
+                      <div class="top-middle">
+                         <div class="top-search">
+                            <div><input type="text" name="my_search" autocomplete="off" class="search-inputs-" placeholder="Chercher un article..." value=""></div>
+                         </div>
                       </div>
+                      <div class="top-link">
+                         <a href="#" class="nav-link" role="button">
+                            <h5><i class="fa fa-shopping-basket"></i></h5>
+                            <strong class="main-header-account-name" data-after-content="PANIER"></strong><span></span>
+                         </a>
+                         <a href="#" class="nav-link" role="button">
+                            <div id="Popover_favoris_1">
+                               <h5><i class="fa fa-heart"></i></h5>
+                               <strong class="main-header-account-name" data-after-content="FAVORIS"></strong>
+                            </div>
+                         </a>
+                         <a href="#" class="header-action-button nav-link" role="button">
+                            <div>
+                               <h5><i class="fa fa-lg fa-user"></i></h5>
+                               <strong class="main-header-account-name" data-after-content="CONNEXION"></strong>
+                            </div>
+                         </a>
+                      </div>
+                   </div>
+                   <div class="main-menu">
+                      <div class=" header-category"><button type="button" class="header-category-link not-leaf">Nos produits <i class="fa fa-lg fa-angle-down ml-2"></i></button></div>
+                      <button class="header-category-link"><span>promotions</span></button><button class="header-category-link"><span>nos meilleurs ventes</span></button><button class="header-category-link"><span>a venir</span></button>
+                   </div>
+                </div>
+             </div>
+             <div class="app-body">
+                <main id="main" class="main">
+                   <div id="main-content" class="main-content">
+                      <div>
+                         <div class="container">
+                            <div class="">
+                               <div id="loginpage">
+                                  <center>
+                                     <h2 class="main-title">Connexion</h2>
+                                  </center>
+                                  <div class="new-filter">
+                                     <center>
+                                        <p class="form-error"></p>
+                                        <p style="color: red; font-size: 0.9rem; font-weight: bold;"></p>
+                                     </center>
+                                     <form class="rjsf">
+                                        <div class="form-group field field-object">
+                                           <fieldset id="root">
+                                              <div class="form-group field field-string">
+                                                 <label class="control-label" for="root_login">Login<span class="required">*</span></label><input class="form-control" id="root_login" label="Login" required="" placeholder="me@me.com" type="text" value="">
+                                                 <p class="help-block">Email or nickname</p>
+                                              </div>
+                                              <div class="form-group field field-string"><label class="control-label" for="root_password">Mot de passe<span class="required">*</span></label><input class="form-control" type="password" id="root_password" label="Mot de passe" required="" placeholder="" value=""></div>
+                                           </fieldset>
+                                        </div>
+                                        <button type="submit" class="new-cart btn btn-secondary">Se connecter&nbsp;<i class="fa fa-lock"></i></button>
+                                     </form>
+                                     <button type="button" class="new-favorite btn btn-secondary">Ou créer un compte&nbsp;<i class="fa fa-arrow-right"></i></button>
+                                     <div class="footer-links"><button type="button" class="lost-mdp btn btn-link">Mot de passe oublié?</button></div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
                 </main>
-            </div>
-            <!-- Footer-->
-            <nav class="app-footer justify-content-between navbar navbar-expand navbar-light fixed-bottom main-footer">
-                <div class="navbar-nav">
-                    <a href="https://jsoagger.tech">SOAGGYSHOP</a>&nbsp;all rights reserved.
+             </div>
+             <div class="app-footer">
+                <div class="shop-footer">
+                   <div class="pre-footer">
+                      <section>
+                         <ul class="checkoutinformation">
+                            <li>
+                               <div>
+                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                     <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path fill-rule="nonzero" d="M5.763 17H20V5H4v13.385L5.763 17zm.692 2L2 22.5V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H6.455zM11 14h2v2h-2v-2zM8.567 8.813A3.501 3.501 0 1 1 12 13h-1v-2h1a1.5 1.5 0 1 0-1.471-1.794l-1.962-.393z"></path>
+                                     </g>
+                                  </svg>
+                               </div>
+                               <b>Contacts &amp; aide</b><br><span>Du lundi à vendredi de 9h à 18h</span><br><span>+33 (0) 112 123 122</span>
+                            </li>
+                            <li>
+                               <div>
+                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                     <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path d="M19 10h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1h1V9a7 7 0 1 1 14 0v1zM5 12v8h14v-8H5zm6 2h2v4h-2v-4zm6-4V9A5 5 0 0 0 7 9v1h10z"></path>
+                                     </g>
+                                  </svg>
+                               </div>
+                               <b>Achats 100% sécurisés</b><br><span>avec sécurisation des données SSL</span>
+                            </li>
+                            <li>
+                               <div>
+                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                     <g>
+                                        <path fill="none" d="M0 0h24v24H0z"></path>
+                                        <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm1 2v14h16V5H4zm4.5 9H14a.5.5 0 1 0 0-1h-4a2.5 2.5 0 1 1 0-5h1V6h2v2h2.5v2H10a.5.5 0 1 0 0 1h4a2.5 2.5 0 1 1 0 5h-1v2h-2v-2H8.5v-2z"></path>
+                                     </g>
+                                  </svg>
+                               </div>
+                               <b>Moyens de paiement</b><br>
+                               <div class="checkoutinformation-paymenticons"><i class="fa fa-lg fa-cc-visa mr-1"></i><i class="fa fa-lg fa-cc-mastercard mr-1"></i><i class="fa fa-lg fa-credit-card mr-1"></i><i class="fa fa-lg fa-cc-amex mr-1"></i></div>
+                            </li>
+                            <li>
+                               <div>
+                                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                     <path fill-rule="evenodd" d="M4.354 11.354a.5.5 0 000-.708L1.707 8l2.647-2.646a.5.5 0 10-.708-.708l-3 3a.5.5 0 000 .708l3 3a.5.5 0 00.708 0z" clip-rule="evenodd"></path>
+                                     <path fill-rule="evenodd" d="M11.5 8a.5.5 0 00-.5-.5H2a.5.5 0 000 1h9a.5.5 0 00.5-.5z" clip-rule="evenodd"></path>
+                                     <path fill-rule="evenodd" d="M14 13.5a1.5 1.5 0 001.5-1.5V4A1.5 1.5 0 0014 2.5H7A1.5 1.5 0 005.5 4v1.5a.5.5 0 001 0V4a.5.5 0 01.5-.5h7a.5.5 0 01.5.5v8a.5.5 0 01-.5.5H7a.5.5 0 01-.5-.5v-1.5a.5.5 0 00-1 0V12A1.5 1.5 0 007 13.5h7z" clip-rule="evenodd"></path>
+                                  </svg>
+                               </div>
+                               <b>Retour gratuit</b><br><span>Dans un delai de 7 jours après la date d'achat</span>
+                            </li>
+                         </ul>
+                      </section>
+                   </div>
+                   <div class="footer-content-pages">
+                      <div id="generales" class="bd-highlight flex-fill">
+                         <h4><span class="h4">Legales</span></h4>
+                         <ul class="main-footer-list">
+                            <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=charteDesDonneescontentId=ODA1OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Charte des données</a></li>
+                            <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=conditionGeneralecontentId=ODAyOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Condition générales</a></li>
+                            <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=mentionsLegalescontentId=ODA4OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Mention légales</a></li>
+                            <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=planDuSitecontentId=ODExOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Plan du site</a></li>
+                            <li class="main-footer-list-item"><a target="_tab_of_external" href="#/contentPage?page=politiqueCookiescontentId=ODE0OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Politique relative aux cookies</a></li>
+                         </ul>
+                      </div>
+                      <div id="needHelp" class="bd-highlight flex-fill">
+                         <h4><span class="h4">Besoin d'aide</span></h4>
+                         <ul class="main-footer-list">
+                            <li class="main-footer-list-item"><a href="#/register?contentId=ODIwOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Créer un compte</a></li>
+                            <li class="main-footer-list-item"><a href="#/lostPass?contentId=ODIzOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Récuperer mot de passe</a></li>
+                            <li class="main-footer-list-item"><a href="#/logout?contentId=ODIxOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Se déconnecter</a></li>
+                            <li class="main-footer-list-item"><a href="#/followOrder?contentId=ODE5OmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Suivi de commande</a></li>
+                            <li class="main-footer-list-item"><a href="#/removeAccount?contentId=ODIyOmlvLmdpdGh1Yi5qc29hZ2dlci5zb2FnZ3lzaG9wLm1vZGVsLkNvbnRlbnRQYWdl" class="nav-link">Supprimer mon compte</a></li>
+                         </ul>
+                      </div>
+                      <div class="footer-address">
+                         <h4><span class="h4">Service client</span></h4>
+                         <div class="footer-postal-address">
+                            <p>65, Avenue du Général de Gaulle</p>
+                            <p>75015, Paris. France</p>
+                         </div>
+                         <div class="footer-email">
+                            <div>
+                               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                                  <g>
+                                     <path fill="none" d="M0 0h24v24H0z"></path>
+                                     <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"></path>
+                                  </g>
+                               </svg>
+                            </div>
+                            <a><span>contact@nexitia.com</span></a>
+                         </div>
+                         <div class="footer-phone">
+                            <div>
+                               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2.3em" width="2.3em" xmlns="http://www.w3.org/2000/svg">
+                                  <g>
+                                     <path fill="none" d="M0 0h24v24H0z"></path>
+                                     <path fill-rule="nonzero" d="M9.366 10.682a10.556 10.556 0 0 0 3.952 3.952l.884-1.238a1 1 0 0 1 1.294-.296 11.422 11.422 0 0 0 4.583 1.364 1 1 0 0 1 .921.997v4.462a1 1 0 0 1-.898.995c-.53.055-1.064.082-1.602.082C9.94 21 3 14.06 3 5.5c0-.538.027-1.072.082-1.602A1 1 0 0 1 4.077 3h4.462a1 1 0 0 1 .997.921A11.422 11.422 0 0 0 10.9 8.504a1 1 0 0 1-.296 1.294l-1.238.884zm-2.522-.657l1.9-1.357A13.41 13.41 0 0 1 7.647 5H5.01c-.006.166-.009.333-.009.5C5 12.956 11.044 19 18.5 19c.167 0 .334-.003.5-.01v-2.637a13.41 13.41 0 0 1-3.668-1.097l-1.357 1.9a12.442 12.442 0 0 1-1.588-.75l-.058-.033a12.556 12.556 0 0 1-4.702-4.702l-.033-.058a12.442 12.442 0 0 1-.75-1.588z"></path>
+                                  </g>
+                               </svg>
+                            </div>
+                            <a>+33 (0) 112 123 122</a>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="main-footer-social-links">
+                      <h4><span class="h4">Rejoignez-nous</span></h4>
+                      <ul class="social-list-links" role="list">
+                         <li class="horizontal-list-item"><a href="https://www.facebook.com/" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-facebook-official"></i>&nbsp;Facebook</a></li>
+                         <li class="horizontal-list-item"><a href="https://www.instagram.com/?hl=fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-instagram"></i>&nbsp;Instagram</a></li>
+                         <li class="horizontal-list-item"><a href="https://www.pinterest.fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-pinterest"></i>&nbsp;Pinterest</a></li>
+                         <li class="horizontal-list-item"><a href="http://www.twitter.fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-twitter"></i>&nbsp;Twitter</a></li>
+                         <li class="horizontal-list-item"><a href="https://www.youtube.com/?gl=FR&amp;hl=fr" target="_external_" class="btn btn-secondary"><i class="fa fa-lg fa-youtube-play"></i>&nbsp;Youtube</a></li>
+                      </ul>
+                   </div>
+                   <div class="main-footer-legal-links">
+                      <ul>
+                         <li class="horizontal-list-item"><a href="https://jsoagger.tech">SOAGGYSHOP</a> © 2019-2020.</li>
+                         <li class="horizontal-list-item">Designed and developed by <a href="https://www.nexitia.com">NEXITIA TECHNOLOGIES.</a></li>
+                         <li class="horizontal-list-item">Version: .</li>
+                      </ul>
+                   </div>
                 </div>
-                <div class="navbar-nav">
-                    <b><i>Version: 1.0.0-SNAPSHOT.202003192238</i></b>
-                </div>
-                <div class="navbar-nav">
-                    <a href="https://jsoagger.tech">SOAGGYSHOP</a>&nbsp;© 2020
-                </div>
-            </nav>
+             </div>
+             <div class="Toastify"></div>
+          </div>
+       </div>
+
+
 
             <!-- Bootstrap core JS-->
             <script src="js/jquery.min.js"></script>
@@ -73,35 +229,5 @@
             <script src="assets/mail/contact_me.js"></script>
             <!-- Core theme JS-->
             <script src="js/scripts.js"></script>
-
-            <!--<div role="tooltip" x-placement="bottom" class="fade jsoagger-filters-popover show popover bs-popover-bottom" id="popover-contained-price" style="position: absolute; top: 0px; left: 0px; margin: 0px; right: auto; bottom: auto; transform: translate3d(527.5px, 343px, 0px);">
-                <div class="arrow" style="margin: 0px; position: absolute; left: 0px; transform: translate3d(129px, 0px, 0px);"></div>
-                <div class="form-group row">
-                    <label for="formHorizontalEmail" class="form-label col-form-label col-sm-3">Min</label>
-                    <div class="col-sm-8">
-                        <select name="priceMin" id="formHorizontalEmail" class="form-control">
-                            <option></option>
-                            <option value="10">10</option>
-                            <option value="50">50</option>
-                            <option value="100">100</option>
-                            <option value="120">120</option>
-                            <option value="150">150</option>
-                            <option value="200">200</option>
-                        </select>
-                    </div>
-                    <label for="formHorizontalEmail" class="mt-1 form-label col-form-label col-sm-3">Max</label>
-                    <div class="mt-1 col-sm-8">
-                        <select name="priceMax" id="formHorizontalEmail" class="form-control">
-                            <option></option>
-                            <option value="10">10</option>
-                            <option value="50">50</option>
-                            <option value="100">100</option>
-                            <option value="120">120</option>
-                            <option value="150">150</option>
-                            <option value="200">200</option>
-                        </select>
-                    </div>
-                </div>
-        </div>-->
     </body>
 </html>
