@@ -188,7 +188,6 @@ input:focus{outline-style: dotted;outline-width: thin;}
 .main-product .product-card .product-item-content{background: #fff;}
 .main-product .product-card .product-item-content .first-row{display: flex;padding:0.5rem 0.8rem;}
 .main-product .product-card .product-item-rating{padding-top: 1rem; padding-bottom: 0; text-align: center;margin-left:36%}
-.main-product .product-card .product-card-price{padding: 1rem 1.5rem 0 0; box-sizing: border-box; color: #333;font-weight: 400; font-size: 1rem; overflow: hidden; z-index: 9;}
 .main-product .product-card .product-price-discount-percent{position: absolute;left: 0px;top: 0px;font-weight: 400;padding: 4px 6px;background-color: rgb(25, 42, 50);color: #fff;font-size: 0.8rem}
 .main-product .product-card .product-card-price-base, .main-product .product-card .product-card-price{font-weight: 700;font-size: 0.9rem}
 .main-product .product-card .product-card-discount{color: rgb(126, 154, 166);
@@ -209,13 +208,13 @@ input:focus{outline-style: dotted;outline-width: thin;}
 .main-product .product-card .product-item-action .float-right{width: 50%}
 .main-product .product-card .product-item-action .float-left,
 .main-product .product-card .product-item-action .float-right{
-  background: #4f0c5d; color: #fff; border: none !important; border-radius: 0; width: 100%; margin: 0; padding: .5rem; font-size: 1.2rem;
+  background: #4f0c5d; color: #fff; border: none !important; border-radius: 0; width: 100%; margin: 0; padding: .1rem; font-size: 1rem;
 }
 .main-product .product-card .product-item-action .float-right{margin-top: 0;background: transparent;}
 .main-product .product-card .product-item-action .float-right{background:#b7c33b}
 .main-product .product-card .product-item-action .float-right button,
 .main-product .product-card .product-item-action .float-left  button{background: transparent;padding-left:40%;outline: none;padding: .2rem;width: 100%;height: 100%}
-.main-product .product-card .product-item-action svg{color: #ffff;font-size: 1.3rem!important; font-weight: 500}
+.main-product .product-card .product-item-action svg{color: #ffff;font-size: 1rem!important; font-weight: 500}
 .main-product .product-card .product-item-price .product-price-discount{visibility: hidden;}
 .main-product .product-card{min-width:22%;max-width:22%;}
 .top-products .product-card{min-width:100%;max-width:100%}
