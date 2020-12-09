@@ -36,7 +36,7 @@ body{
 
 button{border:none; cursor: pointer;}
 
-/** ROOT CONTAINER*/
+//** ROOT CONTAINER*/
 .container{max-width: 80%;margin-top: 8.3rem!important;margin-bottom: 8rem!important}
 @media (min-width: 576px) {
 	.container{min-width: 100%;margin: 0 auto;}
