@@ -149,11 +149,11 @@ body{
 .main-slider-sub{max-width: 82%}
 .main-slider-sub .item{width: 100%}
 
-.new-crumb{margin-top:6.6rem}
 .new-filter table{margin-left: -6rem;}
 
 .top-products{max-width: 82%;margin-top: 4.5rem;margin-bottom: 8rem;}
 
+.homepage-title-section-title:before{display: none}
 .homepage-title-section-title:first-letter{font-size: 3rem; background: #431e03; display: inline-block; padding: .5rem; z-index: 1; color: #fff}
 .homepage-title-section-title:after {
   background: url('/soaggyshop/static/images/zig-marron.png') top repeat-x;
@@ -252,7 +252,7 @@ body{
 .image-gallery-thumbnails {display: none}
 .image-gallery-content{}
 .image-gallery-thumbnails-wrapper.left, .image-gallery-thumbnails-wrapper.right{width: 0px;}
-.new-crumb{margin-top: -1.2rem!important}
+.new-crumb{margin-top: -0.6rem!important}
 .new-filter table{margin-left: 0rem}
 .floating-scroll-button{box-shadow: .1rem .1rem 0 #a66a21; background: #ebd683;}
 .floating-scroll-button svg{top:1rem!important;transform: translateY(8px);}
@@ -339,19 +339,19 @@ body{
 
 .pre-footer{}
 .shop-footer{}
-.pre-footer svg{color: #ebd683}
-.pre-footer .checkoutinformation b{color: #ebd683;opacity:0.5}
+.pre-footer svg{color: #fff}
+.pre-footer .checkoutinformation b{color: #fff;}
 .news-letter h4, .footer-content-pages h4, .main-footer-social-links h4{color: #975c0e; opacity: 1}
 
-.main-menu{box-shadow: 0 0 1rem rgb(0 0 0 / 7%);}
+.main-menu{box-shadow: 0 0 0rem rgba(0, 0, 0,  3%);}
 .main-menu button, .header-category-link .fa{color: #431e03;}
 .main-menu button:hover{background:#ebd683}
 .main-product .product-card .product-card-price, .main-product .product-card .product-card-price-base{font-size: 1rem}
 .shop-footer {background: #fff;color: #431e03;}
 .pre-footer {background: #ebd683;}
 .main-footer-legal-links {border-top: none;background: #ebd683;}
-.main-footer-social-links {border-top: 1px solid rgba(0 0 0 / 30%);}
-
+.main-footer-social-links {border-top: 1px solid rgba(0, 0, 0 , 30%);}
+.footer-email a, .footer-phone a{color:#000}
 
 /** Mobile**/
 .mob-accroche-container article{margin-bottom: 1rem}
@@ -372,6 +372,9 @@ body{
 .real-mobile-menu .mobile-menu-item .btn-right{border: 1px solid grey;margin-right: 0.3rem}
 
 .top-products .caption{text-align: center;padding:1rem;background: #ebd683;margin-right: 2rem;}
+.top-products .card-image{background-repeat: no-repeat;zoom:112%}
+.card-deck-new .card-image{background-repeat: no-repeat;zoom:112%}
+
 
 // Large devices (desktops, less than 1200px)
 @media (min-width: 1300px) {
